@@ -9,6 +9,7 @@ import {
     TouchableOpacity
 } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
+import mainStyles from "../../../styles";
 
 import daily1 from "../../../assets/daily1.jpg"
 import daily2 from "../../../assets/daily2.jpg"
@@ -23,8 +24,22 @@ class WorkoutList extends Component {
             marginTop: 20,
             height: 300,
         }}>
-            <ScrollView horizontal>
 
+            <View>
+                <View style={{
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    padding: 10,
+                    alignItems: "center",
+                    marginBottom: 30
+                }}>
+                    <Text style={[mainStyles.text, { fontSize: 30 }]}>Daily Workout</Text>
+                    <TouchableOpacity>
+                        <Text style={mainStyles.text}> View All</Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+            <ScrollView horizontal>
 
                 {/* workout unit */}
 
