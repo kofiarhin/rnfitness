@@ -16,6 +16,8 @@ import FontAwesome from "react-native-vector-icons/FontAwesome"
 import Fontisto from "react-native-vector-icons/Fontisto"
 
 
+
+// bottom navigation
 const MainNav = createBottomTabNavigator({
     Home: {
         screen: HomeScreen,
@@ -61,6 +63,7 @@ const MainNav = createBottomTabNavigator({
 }
 )
 
+// App navigation
 const NavStack = createSwitchNavigator({
 
     Landing: {
