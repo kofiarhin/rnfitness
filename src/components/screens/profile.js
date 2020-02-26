@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
-import mainStyles from "../../../styles";
 
-export default class workout extends Component {
+export default class profile extends Component {
     render() {
         return (
             <View>
-                <Text> Workout Screen </Text>
+                <Text> Proifile Screen </Text>
             </View>
         )
     }
