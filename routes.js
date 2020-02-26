@@ -56,7 +56,7 @@ const MainNav = createBottomTabNavigator({
         showLabel: false,
         style: {
             backgroundColor: "black",
-            height: 70
+            height: 80
         },
         activeTintColor: '#3F83B5'
     }
