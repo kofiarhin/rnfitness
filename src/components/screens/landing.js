@@ -17,7 +17,7 @@ class Landing extends Component {
 
         //for dev purpose --- redirect to home page
 
-        setTimeout(() => this.props.navigation.navigate("Home"), 1000)
+        // setTimeout(() => this.props.navigation.navigate("Home"), 1000)
     }
     render() {
         return (
